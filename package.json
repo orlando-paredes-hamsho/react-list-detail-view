@@ -1,7 +1,8 @@
 {
   "name": "react-list-detail-view",
   "version": "1.0.0",
-  "description": "Scaffold for developing apps with react and redux",
+  "description": "Simple example showcasing a list-detail-view component and explaining the basics, including event handling, life cycle methods and ajax calls.
+",
   "main": "index.js",
   "repository": "git@github.com:orlando-paredes-hamsho/react-redux-scaffold.git",
   "scripts": {
