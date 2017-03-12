@@ -1,5 +1,9 @@
 # React List Detail View
 
+## About ##
+
+Simple example showcasing a list-detail-view component and explaining the basics, including event handling, life cycle methods and ajax calls.
+
 ## Install ##
 
 From your terminal run:
