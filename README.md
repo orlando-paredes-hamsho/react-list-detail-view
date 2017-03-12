@@ -1,4 +1,4 @@
-# React Redux Scaffold
+# React List Detail View
 
 ## Install ##
 
