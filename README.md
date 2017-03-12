@@ -5,7 +5,7 @@
 From your terminal run:
 
 ```bash
-    git clone git@github.com:orlando-paredes-hamsho/react-redux-scaffold.git
+    git clone git@github.com:orlando-paredes-hamsho/react-list-detail-view.git
 ```
 
 Then once it's downloaded
@@ -25,7 +25,7 @@ From your terminal run:
 Or in cloud 9:
 
 ```bash
-    webpack-dev-server  --host $IP --port $PORT  --hot --inline
+    npm run cloud
 ```
 
 ## Before Working on the file ##
@@ -45,6 +45,6 @@ Then once it's downloaded
 This will get your files up to date and you will be able to continue working.
 
 
-## To add a new slide ##
+## Watch this code live ##
 
-Just add a new jsx file inside of src/components/slides the loader will get it from there.
+You can see a live version of this code on http://codepen.io/orliph/pen/pgmGjr?editors=1010
