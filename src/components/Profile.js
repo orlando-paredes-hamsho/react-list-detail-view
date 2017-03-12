@@ -1,7 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-//Child Component / Profile (Functional Component)
+/** Profile
+* Child / Functional Component
+* Renders a list item for a given profile
+**/
+const propTypes = {
+  onClick: React.PropTypes.func,
+  selected: React.PropTypes.bool,
+  user: React.PropTypes.object,
+}
+
 const Profile = (props) => {
+  //If it's selected, highlight it.
   const classes = props.selected ? 'bold' : '';
   return (
     <li onClick={ props.onClick } className={classes}>
@@ -9,5 +19,7 @@ const Profile = (props) => {
     </li>
   );
 };
+
+Profile.propTypes = propTypes;
 
 export default Profile;
